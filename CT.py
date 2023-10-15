@@ -45,9 +45,9 @@ def main():
             OUTPUT1 = comp1 ** 2 + comp2 ** 2
             OUTPUT2 = comp3 ** 2 + comp4 ** 2
 
-            st.write("PROOF:(ac + bd)^2 + (ad - bc)^2 =", comp1, '^2', "+", comp2, '^2', "=", comp1 ** 2, "+",
+            st.write("PROOF: (ac + bd)^2 + (ad - bc)^2 =", comp1, '^2', "+", comp2, '^2', "=", comp1 ** 2, "+",
                      comp2 ** 2, "=", OUTPUT1)
-            st.write("PROOF:(ac - bd)^2 + (ad + bc)^2 =", comp3, '^2', "+", comp4, '^2', "=", comp3 ** 2, "+",
+            st.write("PROOF: (ac - bd)^2 + (ad + bc)^2 =", comp3, '^2', "+", comp4, '^2', "=", comp3 ** 2, "+",
                      comp4 ** 2, "=", OUTPUT2)
             st.write("Therefore", OUTPUT1, 'is the sum of the squares of', comp1, "and", comp2, "as well as", comp3,
                      "and", comp4)
