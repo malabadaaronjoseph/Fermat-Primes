@@ -59,7 +59,9 @@ def main():
                 st.write(number2, "is not a Fermat Prime")
             if number1 not in mirana and number2 not in mirana:
                 st.write("Both input numbers are not Fermat primes.")
+                
     st.write("List of Fermat Primes: https://webpages.uidaho.edu/drbc/fun/brahmagupta.html")
+    
 if __name__ == "__main__":
     main()
 
