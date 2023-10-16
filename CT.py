@@ -14,9 +14,9 @@ def is_fermat_prime(n):
 
 def main():
     st.title("Fermat Primes and Solutions")
-    st.write("What is Fermat Primes?")
-    st.write("It is a prime number that satisfies Fermat's Christmas Theorem.")
-    st.write("In Fermat’s Christmas Theorem it states that every prime number of the form 4n+1, where n is a non-negative integer and  can be expressed as the sum of two squares F = x^2+y2^ if  and only if p≡1 (mod 4). ")
+    st.write("What are Fermat Primes?")
+    st.write("These are the prime numbers that satisfy Fermat's Christmas Theorem.")
+    st.write("And in Fermat’s Christmas Theorem it states that every prime number of the form 4n+1, where n is a non-negative integer and  can be expressed as the sum of two squares F = x^2+y2^ if  and only if p≡1 (mod 4). ")
    
     
     st.write("Enter two numbers to check if they are Fermat primes and see their solutions.")
