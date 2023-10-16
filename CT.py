@@ -21,8 +21,8 @@ def main():
     
     st.write("Enter two numbers to check if they are Fermat primes and see their solutions.")
 
-    number1 = st.number_input(label="Enter the First Number:", step=1)
-    number2 = st.number_input(label="Enter the Second Number:", step=1)
+    number1 = st.number_input(label="Enter the First Fermat Prime Number:", step=1)
+    number2 = st.number_input(label="Enter the Second Fermat Prime Number:", step=1)
 
     button_clicked = st.button("Calculate")
 
